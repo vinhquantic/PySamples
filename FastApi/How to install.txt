@@ -1,0 +1,26 @@
+// https://fastapi.tiangolo.com/tutorial/first-steps/
+// Option --user : Consider using the `--user` option or check the permissions:
+
+You can also install it part by part.
+
+This is what you would probably do once you want to deploy your application to production:
+>pip install fastapi --user
+
+Also install uvicorn to work as the server:
+>pip install "uvicorn[standard]" --user
+
+And the same for each of the optional dependencies that you want to use.
+
+//Upgrade pip
+>py -m pip install --upgrade pip --user
+
+//Start the web app
+>py -m uvicorn main:app --reload
+PS D:\Drive_E\Workspace_Python\PySamples\FastApi> py -m uvicorn main:app --reload
+
+
+or
+
+>uvicorn main:app --reload
+
+INFO:     Uvicorn running on http://127.0.0.1:8000 or http://localhost:8000 or http://localhost:8000/docs (Press CTRL+C to quit)

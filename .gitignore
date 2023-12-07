@@ -1,0 +1,7 @@
+.idea/
+.env/
+venv/
+
+# virtualfish support
+.venv
+__pycache__/

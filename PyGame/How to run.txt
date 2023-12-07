@@ -1,0 +1,8 @@
+// Open cmd
+>cd D
+>cd D:\Drive_E\Workspace_Python\Test01
+>python playmp3.py
+>python playmp4.py
+
+#PyGameMenu
+>pip install pygame-menu
